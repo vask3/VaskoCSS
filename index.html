@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vasko HTML</title>
+</head>
+<body>
+<style>
+    body {
+        background-color: #eef2f7;
+        font-family: Arial, sans-serif;
+        color: #222;
+        margin: 30px;
+    }
+
+    h1 {
+        color: #000066;
+        font-family: Georgia, serif;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    blockquote {
+        background-color: #ffffcc;
+        border: 1px dashed #999;
+        padding: 10px;
+        margin: 15px 0;
+    }
+
+    address {
+        color: #555;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        background-color: #ddd;
+        border: 2px outset #bbb;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    button:active {
+        border-style: inset;
+    }
+
+    #demo {
+        margin-top: 8px;
+        color: darkgreen;
+    }
+</style>
+
+<h1>Welcome to my only HTML site</h1>
+<p>Hello,
+   welcome to my site.My name is Vasil and Im 14 years old.
+</p>
+
+<p>Here is my favourite quote from Bible:</p>
+
+<blockquote cite="https://bg-patriarshia.bg/bible-new-testament-1#7">
+
+    Do not judge, so that you may not be judged;
+for with the judgment you pronounce, you will be judged, 
+and with the measure you use, it will be measured to you.
+
+</blockquote>
+
+<address>
+Mail me at-lz3sco@qsl.net
+</address>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
